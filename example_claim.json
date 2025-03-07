@@ -1,0 +1,22 @@
+{
+  "claim_id": "CL-2023-12345",
+  "patient_id": "12345",
+  "patient_name": "John Doe",
+  "provider_id": "P-9876",
+  "provider_name": "Companion Care Medical Center",
+  "date_of_service": "2023-07-15",
+  "diagnosis_codes": [
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "E0143",
+      "description": "Walker folding wheeled w/o s",
+      "price": 0.0,
+      "quantity": 1
+    }
+  ]
+}

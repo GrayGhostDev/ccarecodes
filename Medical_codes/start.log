@@ -1,0 +1,8 @@
+2025-03-07 15:51:25,921 - start - INFO - Starting API server on port 5000
+2025-03-07 15:51:25,922 - start - INFO - API server started with PID 3530
+2025-03-07 15:51:27,927 - start - ERROR - API server failed to start (exit code 1)
+2025-03-07 15:52:54,038 - start - INFO - Starting API server on port 5000
+2025-03-07 15:52:54,039 - start - ERROR - Error: [Errno 2] No such file or directory: 'Medical_codes'
+2025-03-07 15:53:15,212 - start - INFO - Starting API server on port 5000
+2025-03-07 15:53:15,216 - start - INFO - API server started with PID 4170
+2025-03-07 15:53:17,218 - start - ERROR - API server failed to start (exit code 1)

@@ -1,0 +1,16 @@
+{
+  "patient_id": "12345",
+  "patient_name": "John Doe",
+  "date": "2023-07-15",
+  "items": [
+    {
+      "code": "E0143",
+      "description": "Walker folding wheeled w/o s",
+      "price": 0.0,
+      "quantity": 1,
+      "item_total": 0.0
+    }
+  ],
+  "total": 0.0,
+  "currency": "USD"
+}

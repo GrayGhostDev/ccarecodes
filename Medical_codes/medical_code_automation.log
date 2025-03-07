@@ -1,0 +1,54 @@
+2025-03-07 15:53:15,489 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 15:53:15,490 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 15:53:15,490 - api_server - INFO - Starting Medical Code API server on port 5000
+2025-03-07 15:53:59,441 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 15:53:59,441 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 15:53:59,441 - api_server - INFO - Starting Medical Code API server on port 8000
+2025-03-07 15:53:59,450 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.87.142.102:8000
+2025-03-07 15:53:59,450 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 15:54:33,385 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:54:33] "GET /health HTTP/1.1" 200 -
+2025-03-07 15:54:36,113 - api_server - INFO - API search request: query='wheelchair', max_results=20
+2025-03-07 15:54:36,114 - medical_code_automation - INFO - Searching for codes with query: 'wheelchair'
+2025-03-07 15:54:36,261 - medical_code_automation - WARNING - Unexpected API response format: [320, ['E2210', 'K0001', 'K0003', 'K0005', 'E0961', 'E0968', 'E0969', 'E0980', 'E0994', 'E1060', 'E1160', 'E1229', 'G9156', 'K0006', 'K0898', 'E0966', 'E0970', 'E0971', 'E0990', 'E0992'], None, [['E2210', '', ''], ['K0001', '', ''], ['K0003', '', ''], ['K0005', '', ''], ['E0961', '', ''], ['E0968', '', ''], ['E0969', '', ''], ['E0980', '', ''], ['E0994', '', ''], ['E1060', '', ''], ['E1160', '', ''], ['E1229', '', ''], ['G9156', '', ''], ['K0006', '', ''], ['K0898', '', ''], ['E0966', '', ''], ['E0970', '', ''], ['E0971', '', ''], ['E0990', '', ''], ['E0992', '', '']]]
+2025-03-07 15:54:36,262 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:54:36] "GET /api/codes/search?q=wheelchair HTTP/1.1" 200 -
+2025-03-07 16:26:54,950 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 16:26:54,950 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 16:26:54,951 - api_server - INFO - Starting Medical Code API server on port 8001
+2025-03-07 16:26:54,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.87.142.102:8001
+2025-03-07 16:26:54,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 16:27:12,495 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 16:27:12,495 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 16:31:00,286 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 16:31:00,286 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 16:31:00,287 - api_server - INFO - Starting Medical Code API server on port 8002
+2025-03-07 16:31:00,295 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8002
+ * Running on http://10.87.142.102:8002
+2025-03-07 16:31:00,295 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 16:31:03,761 - medical_code_automation - INFO - No valid cache found, starting with empty cache
+2025-03-07 16:31:03,761 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 16:31:45,112 - medical_code_automation - INFO - Searching for codes with query: 'wheelchair'
+2025-03-07 16:31:45,287 - medical_code_automation - INFO - API response: [320, ['E2210', 'K0001', 'K0003', 'K0005', 'E0961', 'E0968', 'E0969', 'E0980', 'E0994', 'E1060', 'E1160', 'E1229', 'G9156', 'K0006', 'K0898', 'E0966', 'E0970', 'E0971', 'E0990', 'E0992'], {'code': ['E2210', 'K0001', 'K0003', 'K0005', 'E0961', 'E0968', 'E0969', 'E0980', 'E0994', 'E1060', 'E1160', 'E1229', 'G9156', 'K0006', 'K0898', 'E0966', 'E0970', 'E0971', 'E0990', 'E0992'], 'display': ['Wheelchair bearings', 'Standard wheelchair', 'Lightweight wheelchair', 'Ultralightweight wheelchair', 'Wheelchair brake extension', 'Wheelchair commode seat', 'Wheelchair narrowing device', 'Wheelchair safety vest', 'Wheelchair arm rest', 'Wheelchair detachable arms', 'Wheelchair fixed arms', 'Pediatric wheelchair nos', 'Evaluation for wheelchair', 'Heavy duty wheelchair', 'Power wheelchair noc', 'Wheelchair head rest extensi', 'Wheelchair no. 2 footplates', 'Wheelchair anti-tipping devi', 'Wheelchair elevating leg res', 'Wheelchair solid seat insert'], 'short_desc': ['Wheelchair bearings', 'Standard wheelchair', 'Lightweight wheelchair', 'Ultralightweight wheelchair', 'Wheelchair brake extension', 'Wheelchair commode seat', 'Wheelchair narrowing device', 'Wheelchair safety vest', 'Wheelchair arm rest', 'Wheelchair detachable arms', 'Wheelchair fixed arms', 'Pediatric wheelchair nos', 'Evaluation for wheelchair', 'Heavy duty wheelchair', 'Power wheelchair noc', 'Wheelchair head rest extensi', 'Wheelchair no. 2 footplates', 'Wheelchair anti-tipping devi', 'Wheelchair elevating leg res', 'Wheelchair solid seat insert'], 'long_desc': ['Wheelchair accessory, bearings, any type, replacement only, each', 'Standard wheelchair', 'Lightweight wheelchair', 'Ultralightweight wheelchair', 'Manual wheelchair accessory, wheel lock brake extension (handle), each', 'Commode seat, wheelchair', 'Narrowing device, wheelchair', 'Safety vest, wheelchair', 'Arm rest, each', 'Fully-reclining wheelchair, detachable arms, desk or full length, swing away detachable elevating legrests', 'Wheelchair, fixed full length arms, swing away detachable elevating legrests', 'Wheelchair, pediatric size, not otherwise specified', 'Evaluation for wheelchair requiring face to face visit with physician', 'Heavy duty wheelchair', 'Power wheelchair, not otherwise classified', 'Manual wheelchair accessory, headrest extension, each', 'No. 2 footplates, except for elevating leg rest', 'Manual wheelchair accessory, anti-tipping device, each', 'Wheelchair accessory, elevating leg rest, complete assembly, each', 'Manual wheelchair accessory, solid seat insert']}, [['E2210', 'Wheelchair bearings'], ['K0001', 'Standard wheelchair'], ['K0003', 'Lightweight wheelchair'], ['K0005', 'Ultralightweight wheelchair'], ['E0961', 'Wheelchair brake extension'], ['E0968', 'Wheelchair commode seat'], ['E0969', 'Wheelchair narrowing device'], ['E0980', 'Wheelchair safety vest'], ['E0994', 'Wheelchair arm rest'], ['E1060', 'Wheelchair detachable arms'], ['E1160', 'Wheelchair fixed arms'], ['E1229', 'Pediatric wheelchair nos'], ['G9156', 'Evaluation for wheelchair'], ['K0006', 'Heavy duty wheelchair'], ['K0898', 'Power wheelchair noc'], ['E0966', 'Wheelchair head rest extensi'], ['E0970', 'Wheelchair no. 2 footplates'], ['E0971', 'Wheelchair anti-tipping devi'], ['E0990', 'Wheelchair elevating leg res'], ['E0992', 'Wheelchair solid seat insert']]]
+2025-03-07 16:31:45,288 - medical_code_automation - INFO - Saved 20 codes to cache
+2025-03-07 16:31:45,288 - medical_code_automation - INFO - Found 20 matching codes
+2025-03-07 16:32:08,423 - medical_code_automation - INFO - Searching for codes with query: 'brace'
+2025-03-07 16:32:08,549 - medical_code_automation - INFO - API response: [2, ['L3224', 'L3225'], {'code': ['L3224', 'L3225'], 'display': ["Woman's shoe oxford brace", "Man's shoe oxford brace"], 'short_desc': ["Woman's shoe oxford brace", "Man's shoe oxford brace"], 'long_desc': ["Orthopedic footwear, woman's shoe, oxford, used as an integral part of a brace (orthosis)", "Orthopedic footwear, man's shoe, oxford, used as an integral part of a brace (orthosis)"]}, [['L3224', "Woman's shoe oxford brace"], ['L3225', "Man's shoe oxford brace"]]]
+2025-03-07 16:32:08,550 - medical_code_automation - INFO - Saved 22 codes to cache
+2025-03-07 16:32:08,550 - medical_code_automation - INFO - Found 2 matching codes
+2025-03-07 16:32:41,205 - medical_code_automation - INFO - Loaded 22 codes from cache
+2025-03-07 16:32:41,205 - medical_code_automation - INFO - Medical Code Automation initialized
+2025-03-07 16:32:41,206 - api_server - INFO - Starting Medical Code API server on port 8003
+2025-03-07 16:32:41,213 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://10.87.142.102:8003
+2025-03-07 16:32:41,213 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 16:32:44,544 - medical_code_automation - INFO - Loaded 22 codes from cache
+2025-03-07 16:32:44,544 - medical_code_automation - INFO - Medical Code Automation initialized
